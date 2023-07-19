@@ -1,0 +1,40 @@
+[0mGET /api/ [33m404[0m 1.679 ms - 143[0m
+[0mGET /api/contacts/ [33m404[0m 0.796 ms - 152[0m
+[0mGET /api/contacts/ [33m404[0m 0.188 ms - 152[0m
+[0mGET /contacts/ [33m404[0m 2.014 ms - 148[0m
+[0mGET /routes/api/contacts/ [33m404[0m 0.362 ms - 159[0m
+[0mGET /api/contacts/ [32m200[0m 2.856 ms - 36[0m
+[0mGET /api/contacts/ [32m200[0m 3.027 ms - 36[0m
+[0mGET /api/contacts/ [32m200[0m 1.794 ms - 36[0m
+::1 - GET /api/contacts/ HTTP/1.1 200 36 - 1.912 ms
+::1 - GET /api/contacts/ HTTP/1.1 500 37 - 2.895 ms
+::1 - GET /api/contacts/ HTTP/1.1 500 37 - 2.246 ms
+::1 - GET /api/contacts/ HTTP/1.1 200 1129 - 10.923 ms
+::1 - GET /api/contacts/qdggE76Jtbfd9eWJHrssH HTTP/1.1 200 106 - 1.502 ms
+::1 - GET /api/contacts/ HTTP/1.1 200 1129 - 20.826 ms
+::1 - GET /api/contacts/%D0%BF%D0%B0%D1%80%D0%B0%D0%B2%D0%BA HTTP/1.1 500 23 - 2.782 ms
+::1 - POST /api/contacts/ HTTP/1.1 500 35 - 5.617 ms
+::1 - POST /api/contacts/ HTTP/1.1 500 34 - 8.982 ms
+::1 - POST /api/contacts/ HTTP/1.1 500 34 - 1.659 ms
+::1 - POST /api/contacts/ HTTP/1.1 500 34 - 6.289 ms
+::1 - POST /api/contacts/ HTTP/1.1 500 34 - 7.229 ms
+::1 - POST /api/contacts/ HTTP/1.1 500 34 - 5.540 ms
+::1 - POST /api/contacts/ HTTP/1.1 500 35 - 2.186 ms
+::1 - POST /api/contacts/ HTTP/1.1 500 34 - 1.500 ms
+::1 - POST /api/contacts/ HTTP/1.1 201 86 - 6.001 ms
+::1 - POST /api/contacts/ HTTP/1.1 500 34 - 5.792 ms
+::1 - GET /api/contacts/ HTTP/1.1 200 1216 - 6.649 ms
+::1 - DELETE /api/contacts/8brwHcmx_eXfG1m1C4Yq4 HTTP/1.1 200 86 - 18.006 ms
+::1 - GET /api/contacts/ HTTP/1.1 200 1129 - 1.675 ms
+::1 - PUT /api/contacts/rsKkOQUi80UsgVPCcLZZW HTTP/1.1 200 86 - 4.680 ms
+::1 - GET /api/contacts/ HTTP/1.1 200 1083 - 1.158 ms
+::1 - GET /api/contacts/qdggE76Jtbfd9eWJHrssH HTTP/1.1 200 106 - 13.444 ms
+::1 - POST /api/contacts/ HTTP/1.1 500 35 - 7.400 ms
+::1 - POST /api/contacts/ HTTP/1.1 201 86 - 8.861 ms
+::1 - GET /api/contacts/ HTTP/1.1 200 1170 - 2.273 ms
+::1 - PUT /api/contacts/97RVZcoBg6uMFINFGx1oL HTTP/1.1 500 35 - 4.941 ms
+::1 - PUT /api/contacts/97RVZcoBg6uMFINFGx1oL HTTP/1.1 200 89 - 3.016 ms
+::1 - GET /api/contacts/97RVZcoBg6uMFINFGx1oL HTTP/1.1 200 89 - 5.836 ms
+::1 - GET /api/contacts/ HTTP/1.1 200 1173 - 1.260 ms
+::1 - DELETE /api/contacts/97RVZcoBg6uMFINFGx1oL HTTP/1.1 200 89 - 6.007 ms
+::1 - GET /api/contacts/97RVZcoBg6uMFINFGx1oL HTTP/1.1 500 23 - 1.992 ms
