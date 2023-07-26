@@ -11,6 +11,7 @@ mongoose.connect(DB_HOST)
   })
   .catch(error => {
     console.log(error.message);
+    console.log("Server not running. Backend is not deployed!");
     process.exit(1);
   })
 
