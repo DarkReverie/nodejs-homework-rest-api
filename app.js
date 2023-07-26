@@ -5,10 +5,13 @@ const fs = require('fs');
 const moment = require('moment');
 const path = require('path');
 const morgan = require('morgan');
+const dotenv = require('dotenv'); 
 
 const logPath = path.join(__dirname, 'server.log');
 
 const contactsRouter = require('./routes/api/contacts')
+
+dotenv.config();
 
 const app = express()
 
